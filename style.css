@@ -2,11 +2,9 @@
     font-family: CityLight Dots;
     font-size: xx-large;
     color: red !important;
-
 }
 
 body {
-
     background-color: black;
     border: 15px solid red;
     width: 300px;
@@ -15,17 +13,8 @@ body {
     margin-right: auto;
     margin-top: 20%;
     margin-bottom: auto;
-
-
     border-radius: 20px;
 }
-
-
-
-#time {
-    color: red !important;
-}
-
 
 .blink-red {
     animation: blink-animation 0.5ms steps(5, start) infinite;
