@@ -1,9 +1,11 @@
 function updateTimeAndDate() {
     var a = new Date();
     var arr = a.toString().split(" ");
-// console.log(arr)
+    console.log(a)
+
+console.log(arr)
     var day = document.getElementById('day').innerHTML = arr[0];
-// console.log(day)
+console.log(day)
 
     let date = arr[2] + '-' + arr[1] + '-' + arr[3];
     document.getElementById('date').innerHTML = date;
